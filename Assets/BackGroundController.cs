@@ -12,7 +12,6 @@ public class BackGroundController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		transform.Translate (0, -0.03f, 0);
-		Debug.Log (transform.position.y);
 		if (transform.position.y < -4.9f) {
 			transform.position = new Vector3 (0, 4.9f, 0);
 		}
